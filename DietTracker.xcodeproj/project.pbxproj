@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF21634726B85042006CFB9A /* DietTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21634626B85042006CFB9A /* DietTrackerApp.swift */; };
+		BF21634926B85042006CFB9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21634826B85042006CFB9A /* ContentView.swift */; };
+		BF21634B26B85046006CFB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF21634A26B85046006CFB9A /* Assets.xcassets */; };
+		BF21634E26B85046006CFB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF21634D26B85046006CFB9A /* Preview Assets.xcassets */; };
+		BF21635926B85047006CFB9A /* DietTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21635826B85047006CFB9A /* DietTrackerTests.swift */; };
+		BF21636426B85047006CFB9A /* DietTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21636326B85047006CFB9A /* DietTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF21635526B85047006CFB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF21633B26B85042006CFB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF21634226B85042006CFB9A;
+			remoteInfo = DietTracker;
+		};
+		BF21636026B85047006CFB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF21633B26B85042006CFB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF21634226B85042006CFB9A;
+			remoteInfo = DietTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF21634326B85042006CFB9A /* DietTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF21634626B85042006CFB9A /* DietTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerApp.swift; sourceTree = "<group>"; };
+		BF21634826B85042006CFB9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF21634A26B85046006CFB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF21634D26B85046006CFB9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF21634F26B85046006CFB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF21635426B85047006CFB9A /* DietTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF21635826B85047006CFB9A /* DietTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerTests.swift; sourceTree = "<group>"; };
+		BF21635A26B85047006CFB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF21635F26B85047006CFB9A /* DietTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF21636326B85047006CFB9A /* DietTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerUITests.swift; sourceTree = "<group>"; };
+		BF21636526B85047006CFB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF21634026B85042006CFB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF21635126B85047006CFB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF21635C26B85047006CFB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF21633A26B85042006CFB9A = {
+			isa = PBXGroup;
+			children = (
+				BF21634526B85042006CFB9A /* DietTracker */,
+				BF21635726B85047006CFB9A /* DietTrackerTests */,
+				BF21636226B85047006CFB9A /* DietTrackerUITests */,
+				BF21634426B85042006CFB9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF21634426B85042006CFB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF21634326B85042006CFB9A /* DietTracker.app */,
+				BF21635426B85047006CFB9A /* DietTrackerTests.xctest */,
+				BF21635F26B85047006CFB9A /* DietTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF21634526B85042006CFB9A /* DietTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BF21634626B85042006CFB9A /* DietTrackerApp.swift */,
+				BF21634826B85042006CFB9A /* ContentView.swift */,
+				BF21634A26B85046006CFB9A /* Assets.xcassets */,
+				BF21634F26B85046006CFB9A /* Info.plist */,
+				BF21634C26B85046006CFB9A /* Preview Content */,
+			);
+			path = DietTracker;
+			sourceTree = "<group>";
+		};
+		BF21634C26B85046006CFB9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF21634D26B85046006CFB9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF21635726B85047006CFB9A /* DietTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF21635826B85047006CFB9A /* DietTrackerTests.swift */,
+				BF21635A26B85047006CFB9A /* Info.plist */,
+			);
+			path = DietTrackerTests;
+			sourceTree = "<group>";
+		};
+		BF21636226B85047006CFB9A /* DietTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF21636326B85047006CFB9A /* DietTrackerUITests.swift */,
+				BF21636526B85047006CFB9A /* Info.plist */,
+			);
+			path = DietTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF21634226B85042006CFB9A /* DietTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF21636826B85047006CFB9A /* Build configuration list for PBXNativeTarget "DietTracker" */;
+			buildPhases = (
+				BF21633F26B85042006CFB9A /* Sources */,
+				BF21634026B85042006CFB9A /* Frameworks */,
+				BF21634126B85042006CFB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DietTracker;
+			productName = DietTracker;
+			productReference = BF21634326B85042006CFB9A /* DietTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF21635326B85047006CFB9A /* DietTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF21636B26B85047006CFB9A /* Build configuration list for PBXNativeTarget "DietTrackerTests" */;
+			buildPhases = (
+				BF21635026B85047006CFB9A /* Sources */,
+				BF21635126B85047006CFB9A /* Frameworks */,
+				BF21635226B85047006CFB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF21635626B85047006CFB9A /* PBXTargetDependency */,
+			);
+			name = DietTrackerTests;
+			productName = DietTrackerTests;
+			productReference = BF21635426B85047006CFB9A /* DietTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF21635E26B85047006CFB9A /* DietTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF21636E26B85047006CFB9A /* Build configuration list for PBXNativeTarget "DietTrackerUITests" */;
+			buildPhases = (
+				BF21635B26B85047006CFB9A /* Sources */,
+				BF21635C26B85047006CFB9A /* Frameworks */,
+				BF21635D26B85047006CFB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF21636126B85047006CFB9A /* PBXTargetDependency */,
+			);
+			name = DietTrackerUITests;
+			productName = DietTrackerUITests;
+			productReference = BF21635F26B85047006CFB9A /* DietTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF21633B26B85042006CFB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BF21634226B85042006CFB9A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BF21635326B85047006CFB9A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BF21634226B85042006CFB9A;
+					};
+					BF21635E26B85047006CFB9A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BF21634226B85042006CFB9A;
+					};
+				};
+			};
+			buildConfigurationList = BF21633E26B85042006CFB9A /* Build configuration list for PBXProject "DietTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF21633A26B85042006CFB9A;
+			productRefGroup = BF21634426B85042006CFB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF21634226B85042006CFB9A /* DietTracker */,
+				BF21635326B85047006CFB9A /* DietTrackerTests */,
+				BF21635E26B85047006CFB9A /* DietTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF21634126B85042006CFB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF21634E26B85046006CFB9A /* Preview Assets.xcassets in Resources */,
+				BF21634B26B85046006CFB9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF21635226B85047006CFB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF21635D26B85047006CFB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF21633F26B85042006CFB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF21634926B85042006CFB9A /* ContentView.swift in Sources */,
+				BF21634726B85042006CFB9A /* DietTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF21635026B85047006CFB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF21635926B85047006CFB9A /* DietTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF21635B26B85047006CFB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF21636426B85047006CFB9A /* DietTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF21635626B85047006CFB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF21634226B85042006CFB9A /* DietTracker */;
+			targetProxy = BF21635526B85047006CFB9A /* PBXContainerItemProxy */;
+		};
+		BF21636126B85047006CFB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF21634226B85042006CFB9A /* DietTracker */;
+			targetProxy = BF21636026B85047006CFB9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF21636626B85047006CFB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF21636726B85047006CFB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF21636926B85047006CFB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DietTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DietTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TuckerG.DietTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF21636A26B85047006CFB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DietTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DietTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TuckerG.DietTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF21636C26B85047006CFB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DietTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TuckerG.DietTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietTracker.app/DietTracker";
+			};
+			name = Debug;
+		};
+		BF21636D26B85047006CFB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DietTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TuckerG.DietTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietTracker.app/DietTracker";
+			};
+			name = Release;
+		};
+		BF21636F26B85047006CFB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DietTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TuckerG.DietTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietTracker;
+			};
+			name = Debug;
+		};
+		BF21637026B85047006CFB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DietTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TuckerG.DietTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF21633E26B85042006CFB9A /* Build configuration list for PBXProject "DietTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF21636626B85047006CFB9A /* Debug */,
+				BF21636726B85047006CFB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF21636826B85047006CFB9A /* Build configuration list for PBXNativeTarget "DietTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF21636926B85047006CFB9A /* Debug */,
+				BF21636A26B85047006CFB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF21636B26B85047006CFB9A /* Build configuration list for PBXNativeTarget "DietTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF21636C26B85047006CFB9A /* Debug */,
+				BF21636D26B85047006CFB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF21636E26B85047006CFB9A /* Build configuration list for PBXNativeTarget "DietTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF21636F26B85047006CFB9A /* Debug */,
+				BF21637026B85047006CFB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF21633B26B85042006CFB9A /* Project object */;
+}
