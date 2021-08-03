@@ -13,6 +13,8 @@
 		BF21634E26B85046006CFB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF21634D26B85046006CFB9A /* Preview Assets.xcassets */; };
 		BF21635926B85047006CFB9A /* DietTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21635826B85047006CFB9A /* DietTrackerTests.swift */; };
 		BF21636426B85047006CFB9A /* DietTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21636326B85047006CFB9A /* DietTrackerUITests.swift */; };
+		BF2163A926B86458006CFB9A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2163A826B86457006CFB9A /* SwiftyJSON.swift */; };
+		BF2163AB26B864CB006CFB9A /* FoodAPITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2163AA26B864CB006CFB9A /* FoodAPITesting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BF21635F26B85047006CFB9A /* DietTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF21636326B85047006CFB9A /* DietTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerUITests.swift; sourceTree = "<group>"; };
 		BF21636526B85047006CFB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2163A826B86457006CFB9A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BF2163AA26B864CB006CFB9A /* FoodAPITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAPITesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				BF21634626B85042006CFB9A /* DietTrackerApp.swift */,
 				BF21634826B85042006CFB9A /* ContentView.swift */,
+				BF2163AA26B864CB006CFB9A /* FoodAPITesting.swift */,
+				BF2163A826B86457006CFB9A /* SwiftyJSON.swift */,
 				BF21634A26B85046006CFB9A /* Assets.xcassets */,
 				BF21634F26B85046006CFB9A /* Info.plist */,
 				BF21634C26B85046006CFB9A /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2163A926B86458006CFB9A /* SwiftyJSON.swift in Sources */,
 				BF21634926B85042006CFB9A /* ContentView.swift in Sources */,
 				BF21634726B85042006CFB9A /* DietTrackerApp.swift in Sources */,
+				BF2163AB26B864CB006CFB9A /* FoodAPITesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
