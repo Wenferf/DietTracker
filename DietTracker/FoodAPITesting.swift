@@ -13,7 +13,9 @@ struct FoodAPITesting: View {
         NavigationView {
             List(foods) { food in
                 NavigationLink(
-                    destination: Text(food.ENERC_KCAL)
+                    //the food.ENERC_KCAL wont work because its an int not a string
+                    //but I can get around that by putting it in quotation marks
+                    destination: Text("Calorie count:\(food.ENERC_KCAL)," + " Amount of fat: \(food.FAT) grams")
                         .padding(),
                     label: {
                         Text(food.label)
@@ -40,7 +42,10 @@ struct FoodAPITesting_Previews: PreviewProvider {
 
 struct Food: Identifiable {
     let id = UUID()
+    //these are the variables that I think we should use:
+    //the name of the food
     var label: String
+    //calorie count
     var ENERC_KCAL: Int
     var PROCNT: Float
     var FAT: Float
