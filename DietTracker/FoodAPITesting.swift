@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FoodAPITesting: View {
+    @State private var showingAlert = false
     @State private var foods = [Food]()
     var body: some View {
         NavigationView {
@@ -26,12 +27,34 @@ struct FoodAPITesting: View {
         .onAppear(perform: {
             getFoods()
         })
+        .alert(isPresented: $showingAlert, content: {
+            Alert(title: Text("Loading Error"),
+                  message: Text("There was a problem loading the data"),
+                  dismissButton: .default(Text("OK")))
+        })
     }
     
     func getFoods() {
-        foods.append(Food(label: "a food", ENERC_KCAL: 1, PROCNT: 1.1, FAT: 1.2))
-        foods.append(Food(label: "second food", ENERC_KCAL: 2, PROCNT: 2.1, FAT: 2.2))
-        foods.append(Food(label: "third food", ENERC_KCAL: 3, PROCNT: 3.1, FAT: 3.2))
+        let apiKey = "?rapidapi-key=a4d1d83323mshf9dd61f551662ebp12bf4fjsnf720612eefb1"
+        let query = "https://api.edamam.com/api/food-database/parser?session=44&app_key=69d004c3e3c5b967261e625baea627fc&app_id=85b409cf&ingr=apple\(apiKey)"
+        if let url = URL(string: query) {
+            if let data = try? Data(contentsOf: url) {
+                let json = try! JSON(data: data)
+                if json["success"] == true {
+                    let contents = json["body"].arrayValue
+                    for item in contents {
+                        let label = item["setup"].stringValue
+                        let ENERC_KCAL = item["punchline"].intValue
+                        let PROCNT = item["PROCNT"].floatValue
+                        let FAT = item["Fat"].floatValue
+                        let food = Food(label: label, ENERC_KCAL: ENERC_KCAL, PROCNT: PROCNT, FAT: FAT)
+                        foods.append(food)
+                    }
+                    return
+                }
+            }
+        }
+        showingAlert = true
     }
 }
 struct FoodAPITesting_Previews: PreviewProvider {
